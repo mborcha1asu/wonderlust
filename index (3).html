@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wonderlust Travel - Destination Majorca</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <nav aria-label="Skip links" class="skip-links">
+    <a href="#main">Skip to main content</a>
+    <a href="#plan-your-trip">Skip to plan your trip</a>
+    <a href="#testimonials">Skip to testimonials</a>
+    <a href="#about-your-destination">Skip to about your destination</a>
+    <a href="#contact-us">Skip to contact us</a>
+  </nav>
+
+  <header>
+    <h1>Destination Majorca</h1>
+    <p>
+      Let Wonderlust Travel help you plan the trip of your dreams! Specializing in unforgettable experiences, we offer curated trips to the breathtaking island of Majorca, a hidden gem in the Mediterranean. Whether you crave sun-drenched beaches, charming villages, or thrilling outdoor adventures, our expert team will craft the perfect itinerary tailored just for you.
+    </p>
+  </header>
+
+  <nav aria-label="Main navigation">
+    <input type="checkbox" id="dropdown">
+    <label for="dropdown"><span></span></label>
+    <ul>
+      <li><a href="#home">Wonderlust Travel</a></li>
+      <li><a href="#plan-your-trip">Destinations</a></li>
+      <li><a href="#testimonials">Inspirations</a></li>
+      <li><a href="#about-your-destination">Special</a></li>
+      <li><a href="#contact-us">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <main id="main">
+    <article>
+      <h2>Majorca</h2>
+
+      <section id="intro">
+        <h3>Introduction</h3>
+        <p>Imagine an island with turquoise blue waters, hidden coves, limestone mountains, and charming Spanish architecture. Majorca, the crown jewel of the Balearic Islands, is exactly that place. The island offers a diverse experience, from relaxing beach days to exploring historic castles and enjoying world-class cuisine. Whether you're seeking adventure or tranquility, Majorca promises a once-in-a-lifetime escape.</p>
+
+        <picture>
+          <source media="(min-width: 1280px)" srcset="images/majorca-beach-horizontal-l.jpg">
+          <source media="(min-width: 920px)" srcset="images/majorca-beach-vertical-m.jpg">
+          <img src="images/majorca-beach-square-s.jpg" alt="Golden sandy beach in Majorca at sunset">
+        </picture>
+      </section>
+
+      <section id="plan-your-trip">
+        <h3>Plan Your Trip</h3>
+
+        <section class="plan">
+          <h4>How to Get There</h4>
+          <p><img src="images/airplane.svg" alt=""> Direct flights to Palma de Mallorca Airport from major European cities.</p>
+        </section>
+
+        <section class="plan">
+          <h4>Places to Stay</h4>
+          <p><img src="images/hotel.svg" alt=""> Choose from luxurious seaside resorts, boutique hotels, or rustic countryside villas.</p>
+        </section>
+
+        <section class="plan">
+          <h4>Things to Do</h4>
+          <p><img src="images/activities.svg" alt=""> Visit Serra de Tramuntana, a UNESCO World Heritage site. Explore Palma Cathedral and the Old Town.</p>
+        </section>
+
+        <section class="plan">
+          <h4>Where to Eat</h4>
+          <p><img src="images/dining.svg" alt=""> Try traditional tapas, fresh seafood, and the famous “ensaimada” pastry.</p>
+        </section>
+      </section>
+
+      <section id="testimonials">
+        <h3>Testimonials</h3>
+
+        <article>
+          <picture>
+            <source media="(min-width: 920px)" srcset="images/miranda-blake-M.png">
+            <img src="images/miranda-blake-S.png" alt="Photo of Miranda Blake">
+          </picture>
+          <h4>Miranda Blake</h4>
+          <dl>
+            <dt>Traveling From:</dt>
+            <dd>London, England</dd>
+          </dl>
+          <blockquote>I traveled here for business, but my stay was extended. Now it is my home.</blockquote>
+        </article>
+
+        <article>
+          <picture>
+            <source media="(min-width: 920px)" srcset="images/max-winter-M.png">
+            <img src="images/max-winter-S.png" alt="Photo of Max Winter">
+          </picture>
+          <h4>Max Winter</h4>
+          <dl>
+            <dt>Traveling From:</dt>
+            <dd>Berlin, Germany</dd>
+          </dl>
+          <blockquote>The island has everything I could want – sun, beaches, and incredible views.</blockquote>
+        </article>
+      </section>
+
+      <section id="about-your-destination">
+        <h3>About Your Destination</h3>
+        <p>Majorca is a captivating Mediterranean destination where history, culture, and natural beauty converge. The island boasts over 200 beaches, scenic mountain ranges, charming villages like Valldemossa, and a vibrant capital city, Palma. With over 300 days of sunshine a year, Majorca is perfect for travelers year-round.</p>
+
+        <picture>
+          <source media="(min-width: 1280px)" srcset="images/majorca-city-l.jpg">
+          <source media="(min-width: 920px)" srcset="images/majorca-city-m.jpg">
+          <img src="images/majorca-city-s.jpg" alt="Scenic view of Palma city in Majorca">
+        </picture>
+      </section>
+
+      <section id="contact-us">
+        <h3>Contact Us</h3>
+        <form action="#" method="post">
+
+          <div>
+            <label for="first-name">First Name<span>*</span></label>
+            <input type="text" id="first-name" name="first-name" required>
+          </div>
+
+          <div>
+            <label for="last-name">Last Name<span>*</span></label>
+            <input type="text" id="last-name" name="last-name" required>
+          </div>
+
+          <div>
+            <label for="email">Email<span>*</span></label>
+            <input type="email" id="email" name="email" required>
+          </div>
+
+          <div>
+            <label for="phone">Phone<span>*</span></label>
+            <input type="tel" id="phone" name="phone">
+          </div>
+
+          <fieldset id="preferred-contact">
+            <legend>Preferred Contact Method<span>*</span></legend>
+            <label><input type="radio" name="contact" value="email"> Email</label>
+            <label><input type="radio" name="contact" value="text"> Text</label>
+            <label><input type="radio" name="contact" value="phone"> Phone</label>
+          </fieldset>
+
+          <fieldset id="destination">
+            <legend>Destination<span>*</span></legend>
+            <select id="select-destination" name="destination" required>
+              <option value="">Choose</option>
+              <option value="Barcelona">Barcelona</option>
+              <option value="Granada">Granada</option>
+              <option value="Ibiza">Ibiza</option>
+              <option value="Madrid">Madrid</option>
+              <option value="Majorca">Majorca</option>
+              <option value="Seville">Seville</option>
+              <option value="Tenerife">Tenerife</option>
+              <option value="Valencia">Valencia</option>
+              <option value="Other">Other</option>
+            </select>
+          </fieldset>
+
+          <fieldset id="travel-time">
+            <legend>Travel Time<span>*</span></legend>
+            <select id="select-travel-time" name="travel-time" required>
+              <option value="">Choose</option>
+              <option value="Fall">Fall</option>
+              <option value="Winter">Winter</option>
+              <option value="Spring">Spring</option>
+              <option value="Summer">Summer</option>
+              <option value="Flexible">Flexible</option>
+            </select>
+          </fieldset>
+
+          <div>
+            <label for="message">Message</label>
+            <textarea id="message" name="message"></textarea>
+          </div>
+
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </article>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Wonderlust Travel</p>
+  </footer>
+
+</body>
+</html>
+
