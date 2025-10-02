@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Wonderlust Travel – Destination Majorca</title>
+  <title>Wonderlust Travel - Destination Majorca</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-  <nav aria-label="Skip links" class="skip-links">
+  <nav class="skip-links" aria-label="Skip links">
     <a href="#main">Skip to main content</a>
     <a href="#plan-your-trip">Skip to plan your trip</a>
     <a href="#testimonials">Skip to testimonials</a>
@@ -18,17 +18,22 @@
 
   <header>
     <h1>Destination Majorca</h1>
-    <p>Let Wonderlust Travel help you plan the trip of your dreams! Specializing in unforgettable experiences, we offer curated trips to the breathtaking island of Majorca...</p>
+    <p>
+      Let Wonderlust Travel help you plan the trip of your dreams! Specializing in unforgettable experiences, 
+      we offer curated trips to the breathtaking island of Majorca, a hidden gem in the Mediterranean. 
+      Whether you crave sun-drenched beaches, charming villages, or thrilling outdoor adventures, 
+      our expert team will craft the perfect itinerary tailored just for you.
+    </p>
   </header>
 
   <nav aria-label="Main navigation">
     <input type="checkbox" id="dropdown">
-    <label for="dropdown"><span></span></label>
+    <label for="dropdown"><span></span> Menu</label>
     <ul>
-      <li><a href="#home">Wonderlust Travel</a></li>
+      <li><a href="#home" id="home">Wonderlust Travel</a></li>
       <li><a href="#plan-your-trip">Destinations</a></li>
-      <li><a href="#testimonials">Inspirations</a></li>
-      <li><a href="#about-your-destination">Special</a></li>
+      <li><a href="#">Inspirations</a></li>
+      <li><a href="#">Special</a></li>
       <li><a href="#contact-us">Contact Us</a></li>
     </ul>
   </nav>
@@ -36,77 +41,154 @@
   <main id="main">
     <article>
       <section id="intro">
-        <h3>Introduction</h3>
-        <p>Imagine an island with turquoise blue waters, hidden coves, limestone mountains...</p>
-
+        <h2>Introduction</h2>
+        <p>
+          Imagine an island with turquoise blue waters, secret coves, soft golden sands, lush green foliage, 
+          rugged mountains, picturesque villages and a vibrant capital city. The island and its capital, Palma, 
+          are overflowing with character, while its beaches are famous all around the world, making it one of the most sought-after summer destinations.
+        </p>
         <picture>
-          <source media="(min-width: 1280px)" srcset="images/majorca-beach-horizontal-l.jpg">
-          <source media="(min-width: 920px)" srcset="images/majorca-beach-vertical-m.jpg">
-          <img src="images/majorca-beach-square-s.jpg" alt="Golden sandy beach in Majorca at sunset">
+          <source srcset="images/majorca-beach-horizontal-l.jpg" media="(min-width:1280px)">
+          <source srcset="images/majorca-beach-vertical-m.jpg" media="(min-width:920px)">
+          <img src="images/majorca-beach-square-s.jpg" alt="Beach view of Majorca">
         </picture>
+        <small>
+          Photo by <a href="https://unsplash.com/@charliefirth">Charlie Firth</a> on 
+          <a href="https://unsplash.com/photos/sea-waves-crashing-on-shore-during-sunset-HQJIQjXq1HI">Unsplash</a>
+        </small>
       </section>
 
       <section id="plan-your-trip">
-        <h3>Plan Your Trip</h3>
+        <h2>Plan Your Trip</h2>
         <section class="plan">
-          <h4>How to Get There</h4>
-          <p><img src="images/airplane.svg" alt=""> Direct flights to Palma de Mallorca Airport from major European cities.</p>
+          <h3>How to Get There</h3>
+          <a href="#" title="Search for flights">Search Flights</a>
         </section>
         <section class="plan">
-          <h4>Places to Stay</h4>
-          <p><img src="images/hotel.svg" alt=""> Choose from luxurious seaside resorts, boutique hotels, or rustic countryside villas.</p>
+          <h3>Places to Stay</h3>
+          <a href="#" title="Search for Hotels">Search Hotels</a>
         </section>
         <section class="plan">
-          <h4>Things to Do</h4>
-          <p><img src="images/activities.svg" alt=""> Visit Serra de Tramuntana, a UNESCO World Heritage site...</p>
+          <h3>Things to Do</h3>
+          <a href="#" title="Search for Activities">Search Activities</a>
         </section>
         <section class="plan">
-          <h4>Where to Eat</h4>
-          <p><img src="images/dining.svg" alt=""> Try traditional tapas, fresh seafood, and the famous “ensaimada” pastry.</p>
+          <h3>Where to Eat</h3>
+          <a href="#" title="Search for Restaurants">Search Food</a>
         </section>
       </section>
 
       <section id="testimonials">
-        <h3>Testimonials</h3>
+        <h2>Testimonials</h2>
         <article>
           <picture>
-            <source media="(min-width: 920px)" srcset="images/miranda-blake-M.png">
-            <img src="images/miranda-blake-S.png" alt="Photo of Miranda Blake">
+            <source srcset="images/miranda-blake-L.png" media="(min-width:1280px)">
+            <source srcset="images/miranda-blake-M.png" media="(min-width:920px)">
+            <img src="images/miranda-blake-S.png" alt="Traveler Miranda Blake">
           </picture>
-          <h4>Miranda Blake</h4>
-          <blockquote>I traveled here for business, but my stay was extended. Now it is my home.</blockquote>
-        </article>
-        <article>
-          <picture>
-            <source media="(min-width: 920px)" srcset="images/max-winter-M.png">
-            <img src="images/max-winter-S.png" alt="Photo of Max Winter">
-          </picture>
-          <h4>Max Winter</h4>
-          <blockquote>The island has everything I could want – sun, beaches, and incredible views.</blockquote>
+          <h3>Miranda Blake</h3>
+          <dl>
+            <dt>Traveling From:</dt>
+            <dd>London, England</dd>
+          </dl>
+          <blockquote>“I traveled here for business, but my stay was extended. Now it is my home.”</blockquote>
         </article>
       </section>
 
       <section id="about-your-destination">
-        <h3>About Your Destination</h3>
-        <p>Majorca is a captivating Mediterranean destination where history, culture, and natural beauty converge...</p>
-        <picture>
-          <source media="(min-width: 1280px)" srcset="images/majorca-city-l.jpg">
-          <source media="(min-width: 920px)" srcset="images/majorca-city-m.jpg">
-          <img src="images/majorca-city-s.jpg" alt="Scenic view of Palma city in Majorca">
-        </picture>
-      </section>
-
-      <section id="contact-us">
-        <h3>Contact Us</h3>
-        <form action="#" method="post">
-          <!-- form fields -->
-        </form>
+        <h2>About Your Destination</h2>
+        <section>
+          <h3>Size</h3>
+          <dl><dt>Size:</dt><dd>1,405 miles squared</dd></dl>
+        </section>
+        <section>
+          <h3>Elevation</h3>
+          <dl><dt>Elevation:</dt><dd>4,741 feet</dd></dl>
+        </section>
+        <section>
+          <h3>Location</h3>
+          <dl><dt>Location:</dt><dd>Mediterranean</dd></dl>
+        </section>
+        <section>
+          <h3>Population</h3>
+          <dl><dt>Population:</dt><dd>923,608</dd></dl>
+        </section>
       </section>
     </article>
   </main>
 
   <footer>
-    <p>&copy; 2025 Wonderlust Travel</p>
+    <section id="contact-us">
+      <h2>Contact Us <span id="required">(*required)</span></h2>
+      <form action="#" method="post">
+        <div>
+          <label for="fname">First Name<span>*</span></label>
+          <input type="text" id="fname" name="fname" required>
+        </div>
+        <div>
+          <label for="lname">Last Name<span>*</span></label>
+          <input type="text" id="lname" name="lname" required>
+        </div>
+        <div>
+          <label for="email">Email<span>*</span></label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+          <label for="phone">Phone<span>*</span></label>
+          <input type="tel" id="phone" name="phone" required>
+        </div>
+        <fieldset id="preferred-contact">
+          <legend>Preferred Contact Method<span>*</span></legend>
+          <div>
+            <input type="radio" id="contact-email" name="contact-method" value="email" required>
+            <label for="contact-email">Email</label>
+          </div>
+          <div>
+            <input type="radio" id="contact-text" name="contact-method" value="text">
+            <label for="contact-text">Text</label>
+          </div>
+          <div>
+            <input type="radio" id="contact-phone" name="contact-method" value="phone">
+            <label for="contact-phone">Phone</label>
+          </div>
+        </fieldset>
+        <fieldset id="destination">
+          <legend>Destination<span>*</span></legend>
+          <label for="select-destination" class="visually-hidden">Choose Destination</label>
+          <select id="select-destination" name="destination" required>
+            <option value="">Choose</option>
+            <option>Barcelona</option>
+            <option>Granada</option>
+            <option>Ibiza</option>
+            <option>Madrid</option>
+            <option>Majorca</option>
+            <option>Seville</option>
+            <option>Tenerife</option>
+            <option>Valencia</option>
+            <option>Other</option>
+          </select>
+        </fieldset>
+        <fieldset id="travelTime">
+          <legend>Travel Time<span>*</span></legend>
+          <label for="select-travel-time" class="visually-hidden">Choose Travel Time</label>
+          <select id="select-travel-time" name="travel-time" required>
+            <option value="">Choose</option>
+            <option>Fall</option>
+            <option>Winter</option>
+            <option>Spring</option>
+            <option>Summer</option>
+            <option>Flexible</option>
+          </select>
+        </fieldset>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+    <section id="legal">
+      <h2>Legal</h2>
+      <small>&copy; 2025 Wonderlust</small>
+      <a href="#">Privacy Statement</a>
+      <a href="#">Terms of Service</a>
+    </section>
   </footer>
 
 </body>
